@@ -44,5 +44,6 @@ describe('index', () => {
       console.warn.restore()
       done()
     })
+    console.warn("Careful now!")
   })
 })
