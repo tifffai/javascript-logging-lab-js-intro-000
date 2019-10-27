@@ -31,6 +31,7 @@ describe('index', () => {
       console.log.restore()
       done()
     })
+    console.log("Yay!")
   })
 
   it('calls console.warn()', done => {
